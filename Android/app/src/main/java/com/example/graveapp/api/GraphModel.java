@@ -4,14 +4,14 @@ import com.google.gson.annotations.SerializedName;
 
 import lombok.Getter;
 
-public class EdgesModel {
+public class GraphModel {
 
-    @SerializedName("vertices")
-    @Getter
-    private int vertices;
     @SerializedName("edges")
     @Getter
     private Edge[] edges;
+    @SerializedName("vertices")
+    @Getter
+    private Vertex[] vertices;
 
     public class Edge
     {
@@ -24,6 +24,19 @@ public class EdgesModel {
         @SerializedName("weight")
         @Getter
         private double weight;
+    }
+
+    public class Vertex
+    {
+        @SerializedName("label")
+        @Getter
+        private String label;
+        @SerializedName("latitude")
+        @Getter
+        private double latitude;
+        @SerializedName("longitude")
+        @Getter
+        private double longitude;
     }
 
 }

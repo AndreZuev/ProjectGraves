@@ -8,7 +8,7 @@ public interface MapsAPI {
     @GET("/Graveyard")
     Call<GraveyardModel> getGraveyard();
 
-    @GET("/edges")
-    Call<EdgesModel> getEdges();
+    @GET("/Graph")
+    Call<GraphModel> getGraph();
 
 }

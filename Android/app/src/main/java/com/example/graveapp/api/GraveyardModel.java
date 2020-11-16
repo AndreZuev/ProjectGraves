@@ -2,13 +2,15 @@ package com.example.graveapp.api;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.List;
+
 import lombok.Getter;
 
 public class GraveyardModel {
 
     @SerializedName("blocks")
     @Getter
-    private GraveyardBlock[] blocks;
+    private List<GraveyardBlock> blocks;
 
     public class GraveyardBlock
     {
@@ -23,7 +25,7 @@ public class GraveyardModel {
         private double longitude;
         @SerializedName("lots")
         @Getter
-        private GraveyardLot[] lots;
+        private List<GraveyardLot> lots;
     }
 
     public class GraveyardLot
@@ -33,7 +35,7 @@ public class GraveyardModel {
         private int lotNumber;
         @SerializedName("graves")
         @Getter
-        private Grave[] graves;
+        private List<Grave> graves;
     }
 
     public class Grave
@@ -43,7 +45,7 @@ public class GraveyardModel {
         private String name;
         @SerializedName("dateOfBirth")
         @Getter
-        private String dateOfBith;
+        private String dateOfBirth;
         @SerializedName("age")
         @Getter
         private String age;

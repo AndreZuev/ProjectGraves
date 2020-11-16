@@ -11,7 +11,7 @@ namespace graveyardAPI.Controllers
     public class GraveyardController : ControllerBase
     {
         private GraveyardModel graveyardModel;
-        private EdgesModel edgesModel;
+        private GraphModel graphModel;
 
         public GraveyardController()
         {
@@ -20,10 +20,10 @@ namespace graveyardAPI.Controllers
                 string json = sr.ReadToEnd();
                 graveyardModel = JsonSerializer.Deserialize<GraveyardModel>(json);
             }
-            using (var sr = new StreamReader("edges.json"))
+            using (var sr = new StreamReader("graph.json"))
             {
                 string json = sr.ReadToEnd();
-                edgesModel = JsonSerializer.Deserialize<EdgesModel>(json);
+                graphModel = JsonSerializer.Deserialize<GraphModel>(json);
             }
         }
 
@@ -40,11 +40,11 @@ namespace graveyardAPI.Controllers
         /// <summary>
         /// Get all edges for the graveyard.
         /// </summary>
-        [ProducesResponseType(typeof(EdgesModel), 200)]
-        [HttpGet("/edges")]
-        public EdgesModel GetEdges()
+        [ProducesResponseType(typeof(GraphModel), 200)]
+        [HttpGet("/Graph")]
+        public GraphModel GetGraph()
         {
-            return edgesModel;
+            return graphModel;
         }
     }
 
