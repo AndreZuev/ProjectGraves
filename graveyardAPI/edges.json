@@ -4,57 +4,57 @@
    {
      "src": "p7",
      "dest": "20",
-     "weight": "0.000084"
+     "weight": 0.000084
    },
    {
      "src": "p2",
      "dest": "68",
-     "weight": "0.000104"   
+     "weight": 0.000104  
    },
    {
      "src": "p5",
      "dest": "40",
-     "weight": "0.000097" 
+     "weight": 0.000097 
    },
    {
      "src": "p8",
      "dest": "5",
-     "weight": "0.000105" 
+     "weight": 0.000105
    },
    {
      "src": "p1",
      "dest": "p2",
-     "weight": "0.000079" 
+     "weight": 0.000079
    },
    {
      "src": "p1",
      "dest": "p3",
-     "weight": "0.000606" 
+     "weight": 0.000606
    },
    {
      "src": "p3",
      "dest": "p4",
-     "weight": "0.000267" 
+     "weight": 0.000267 
    },
    {
      "src": "p4",
      "dest": "p5",
-     "weight": "0.000059" 
+     "weight": 0.000059 
    },
    {
      "src": "p4",
      "dest": "p6",
-     "weight": "0.000322" 
+     "weight": 0.000322
    },
    {
      "src": "p6",
      "dest": "p7",
-     "weight": "0.000105" 
+     "weight": 0.000105 
    },
    {
      "src": "p7",
      "dest": "p8",
-     "weight": "0.000316" 
+     "weight": 0.000316
    }
  ]
 }
