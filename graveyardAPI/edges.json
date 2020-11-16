@@ -1,5 +1,4 @@
 {
- "vertices": 12,
  "edges":
  [
    {
@@ -57,5 +56,68 @@
      "dest": "p8",
      "weight": 0.000316
    }
+ ],
+ "vertices":
+ [
+  {
+    "label":"p1",
+    "latitude":45.984294,
+    "longitude":-112.539172
+  },
+  {
+    "label":"p2",
+    "latitude":45.984215,
+    "longitude":-112.539170
+  },
+  {
+    "label":"p3",
+    "latitude":45.984293,
+    "longitude":-112.539778
+  },
+  {
+    "label":"p4",
+    "latitude":45.984411,
+    "longitude":-112.540017
+  },
+  {
+    "label":"p5",
+    "latitude":45.984469,
+    "longitude":-112.540009
+  },
+  {
+    "label":"p6",
+    "latitude":45.984293,
+    "longitude":-112.540317
+  },
+  {
+    "label":"p7",
+    "latitude":45.984294,
+    "longitude":-112.540422
+  },
+  {
+    "label":"p8",
+    "latitude":45.984291,
+    "longitude":-112.540738
+  },
+  {
+    "label":"68",
+    "latitude":45.984204,
+    "longitude":-112.539273
+  },
+  {
+    "label":"20",
+    "latitude":45.984378,
+    "longitude":-112.540417
+  },
+  {
+    "label":"5",
+    "latitude":45.984187,
+    "longitude":-112.540723
+  },
+  {
+    "label":"40",
+    "latitude":45.984469,
+    "longitude":-112.539912
+  }
  ]
 }
