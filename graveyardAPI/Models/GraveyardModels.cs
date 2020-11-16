@@ -16,6 +16,7 @@ namespace graveyardAPI.Models
 
     public interface IGraveyardBlock
     {
+        string ID { get; set; }
         double Latitude { get; set; }
         double Longitude { get; set; }
         GraveyardLot[] Lots { get; set; }
@@ -23,6 +24,8 @@ namespace graveyardAPI.Models
 
     public class GraveyardBlock : IGraveyardBlock
     {
+        [JsonPropertyName("id")]
+        public string ID { get; set; }
         [JsonPropertyName("latitude")]
         public double Latitude { get; set; }
         [JsonPropertyName("longitude")]

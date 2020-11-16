@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "/home/dalton/.dotnet/store/|arch|/|tfm|",
-      "/home/dalton/.nuget/packages"
-    ]
-  }
-}
