@@ -10,6 +10,8 @@ namespace graveyardAPI.Models
 
     public class EdgesModel : IEdgesModel
     {
+        [JsonPropertyName("vertices")]
+        public int vertices { get; set; }
         [JsonPropertyName("edges")]
         public Edge[] edges { get; set; }
     }

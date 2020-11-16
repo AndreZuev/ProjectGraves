@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName;
 
 import lombok.Getter;
 
-public class GetGraveyardModel {
+public class GraveyardModel {
 
     @SerializedName("blocks")
     @Getter

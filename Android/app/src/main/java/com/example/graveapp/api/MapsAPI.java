@@ -6,6 +6,9 @@ import retrofit2.http.GET;
 public interface MapsAPI {
 
     @GET("/Graveyard")
-    Call<GetGraveyardModel> getGraveyard();
+    Call<GraveyardModel> getGraveyard();
+
+    @GET("/edges")
+    Call<EdgesModel> getEdges();
 
 }
