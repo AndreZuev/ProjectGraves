@@ -6,6 +6,9 @@ import lombok.Getter;
 
 public class EdgesModel {
 
+    @SerializedName("vertices")
+    @Getter
+    private int vertices;
     @SerializedName("edges")
     @Getter
     private Edge[] edges;
